@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--  
+    Document Title
+    =============================================
+    -->
+  <title>TRaumfalle</title>
+  <!--  
+    Favicons
+    =============================================
+    -->
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!--  
+    Stylesheets
+    =============================================
+    
+    -->
+  <!-- Default stylesheets-->
+  <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Template specific stylesheets-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+  <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+  <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+  <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+  <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+  <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+  <!-- Main stylesheet and color file-->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+  <main>
+    <div class="page-loader">
+      <div class="loader">Loading...</div>
+    </div>
+    <nav class="navbar navbar-custom navbar-fixed-top navbar-dark" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span
+              class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span
+              class="icon-bar"></span></button><a class="navbar-brand" href="index.html">TRaumfalle</a>
+        </div>
+        <div class="collapse navbar-collapse" id="custom-collapse">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Home</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown"><a class="dropdown-toggle" href="Chapter.html" data-toggle="dropdown">Chapter</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="story.html">Story</a></li>
+                  </ul>
+                </li>
+                <li><a href="Character.html">Character</a></li>
+                <li><a href="index_mp_fullscreen_video_background.html">Things & Ability</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">About</a>
+              <ul class="dropdown-menu">
+                <li><a href="about3.html">TRaumfalle</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">World</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Evernight</a>
+                </li>
+                <li><a href="#">WhiteNight</a>
+                </li>
+                <li><a href="#">Evernight</a>
+                </li>
+              </ul>
+            </li>
+            <!--li.dropdown.navbar-cart-->
+            <!--    a.dropdown-toggle(href='#', data-toggle='dropdown')-->
+            <!--        span.icon-basket-->
+            <!--        |-->
+            <!--        span.cart-item-number 2-->
+            <!--    ul.dropdown-menu.cart-list(role='menu')-->
+            <!--        li-->
+            <!--            .navbar-cart-item.clearfix-->
+            <!--                .navbar-cart-img-->
+            <!--                    a(href='#')-->
+            <!--                        img(src='assets/images/shop/product-9.jpg', alt='')-->
+            <!--                .navbar-cart-title-->
+            <!--                    a(href='#') Short striped sweater-->
+            <!--                    |-->
+            <!--                    span.cart-amount 2 &times; $119.00-->
+            <!--                    br-->
+            <!--                    |-->
+            <!--                    strong.cart-amount $238.00-->
+            <!--        li-->
+            <!--            .navbar-cart-item.clearfix-->
+            <!--                .navbar-cart-img-->
+            <!--                    a(href='#')-->
+            <!--                        img(src='assets/images/shop/product-10.jpg', alt='')-->
+            <!--                .navbar-cart-title-->
+            <!--                    a(href='#') Colored jewel rings-->
+            <!--                    |-->
+            <!--                    span.cart-amount 2 &times; $119.00-->
+            <!--                    br-->
+            <!--                    |-->
+            <!--                    strong.cart-amount $238.00-->
+            <!--        li-->
+            <!--            .clearfix-->
+            <!--                .cart-sub-totle-->
+            <!--                    strong Total: $476.00-->
+            <!--        li-->
+            <!--            .clearfix-->
+            <!--                a.btn.btn-block.btn-round.btn-font-w(type='submit') Checkout-->
+            <!--li.dropdown-->
+            <!--    a.dropdown-toggle(href='#', data-toggle='dropdown') Search-->
+            <!--    ul.dropdown-menu(role='menu')-->
+            <!--        li-->
+            <!--            .dropdown-search-->
+            <!--                form(role='form')-->
+            <!--                    input.form-control(type='text', placeholder='Search...')-->
+            <!--                    |-->
+            <!--                    button.search-btn(type='submit')-->
+            <!--                        i.fa.fa-search-->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="main">
+      <section class="module-small">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 col-md-3 sidebar">
+              <div class="widget">
+                <form role="form">
+                  <div class="search-box">
+                    <input class="form-control" type="text" placeholder="Search..." />
+                    <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+                  </div>
+                </form>
+              </div>
+              <div class="widget">
+                <h5 class="widget-title font-alt">Chapter : </h5>
+                <ul class="icon-list">
+                  <li><a href="#">#1 Prologue</a></li>
+                  <li><a href="#"></a>#2 Marlyna Erviya</li>
+                  <li><a href="#">#3 A Blank Title</a></li>
+                  <li><a href="#">#4 A Long Dark Night</a></li>
+                  <li><a href="#">#5 A Strawberry of Pink Princess</a></li>
+                </ul>
+              </div>
+              <div class="widget">
+                <h5 class="widget-title font-alt">Popular Chapter</h5>
+                <ul class="widget-posts">
+                  <li class="clearfix">
+                    <div class="widget-posts-image"><a href="#"><img src="pict/Girl with a Knife_ 칼가는 소녀 Manhwa.png"
+                          alt="Post Thumbnail" /></a></div>
+                    <div class="widget-posts-body">
+                      <div class="widget-posts-title"><a href="#">A Strawbery of Pink Princess</a></div>
+                      <div class="widget-posts-meta">1 January</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="widget-posts-image"><a href="#"><img src="pict/Zhongli-Genshin-Impact-banner.jpg"
+                          alt="Post Thumbnail" /></a></div>
+                    <div class="widget-posts-body">
+                      <div class="widget-posts-title"><a href="#">A Castle of Chess</a></div>
+                      <div class="widget-posts-meta">15 February</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="widget-posts-image"><a href="#"><img src="pict/᯽ꕥ𝐀𝐧𝐝𝐫𝐨𝐢𝐝𝐞᯽ꕥ.jfif"
+                          alt="Post Thumbnail" /></a></div>
+                    <div class="widget-posts-body">
+                      <div class="widget-posts-title"><a href="#">Reality??</a></div>
+                      <div class="widget-posts-meta">21 February</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="widget-posts-image"><a href="#"><img src="pict/siki on Twitter.png"
+                          alt="Post Thumbnail" /></a></div>
+                    <div class="widget-posts-body">
+                      <div class="widget-posts-title"><a href="#">A Misundertanding?</a></div>
+                      <div class="widget-posts-meta">2 March</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="widget">
+                <h5 class="widget-title font-alt">Word Tag</h5>
+                <div class="tags font-serif"><a href="#" rel="tag">Chess</a><a href="#" rel="tag">Marlyna</a><a href="#"
+                    rel="tag">Diary</a><a href="#" rel="tag">Candlebar</a><a href="#" rel="tag">Dark Night</a><a
+                    href="#" rel="tag">Castle</a><a href="#" rel="tag">Hide & Seek</a><a href="#" rel="tag">Domba</a><a
+                    href="#" rel="tag">Burung Kondor</a><a href="#" rel="tag">Half Mask</a><a href="#" rel="tag">Gummy
+                    Smile</a><a href="#" rel="tag">Misterius</a>
+                </div>
+              </div>
+              <div class="widget">
+                <h5 class="widget-title font-alt">Text</h5>"Tak Semua Orang yang kau lihat saat ini bisa
+                menjadi sosok
+                yang kau percaya.
+                Akan ada kemungkinan untuknya menjadi musuh dalam selimutmu suatu saat nanti."
+              </div>
+              <div class="widget">
+                <h5 class="widget-title font-alt">Recent Comments</h5>
+                <ul class="icon-list">
+                  <li>Maria on <a href="#">Designer Desk Essentials</a></li>
+                  <li>John on <a href="#">Realistic Business Card Mockup</a></li>
+                  <li>Andy on <a href="#">Eco bag Mockup</a></li>
+                  <li>Jack on <a href="#">Bottle Mockup</a></li>
+                  <li>Mark on <a href="#">Our trip to the Alps</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-8 col-sm-offset-1" style="background: #d8e2dc;">
+              <div class="post">
+                <div class="post-thumbnail"><img
+                    src="pict/genshin-impact-update-2.4-double-banner-1_fee0f-df859b13.jpeg"
+                    alt="Blog Featured Image" /></div>
+                <div class="post-header font-alt">
+                  <h1 class="post-title">Prologue</h1>
+                  <div class="post-meta">By&nbsp;<a href="#">Memiru...</a>| 23 November | 2555 Comments | <a
+                      href="#">Before the problem, </a><a href="#">It was nothing</a>
+                  </div>
+                </div>
+                <div class="post-entry text-justify">
+                  <p>Pada zaman dahulu ketika bumi ini masih dikuasai oleh mereka para monster yang
+                    bengis,
+                    manusia bukanlah sosok yang menjadi penikmat untuk menikmati kekayaan dari sumber daya alamnya.
+                    Namun, para manusia ini merupakan makhluk jajahan dan santapan lezat bagi mereka para monster.
+                    Dengan seenaknya mereka menindas bahkan memakan manusia yang tidak menurut. Pada masa itu manusia
+                    menjadi ras yang paling lemah dan tertindas.</p>
+                  <p>Tak ada yang tau darimana asalnya monster-monster ini. Monster-monster ini tiba-tiba saja datang
+                    setelah gerhana bulan merah yang terjadi setiap 100 tahun sekali. Setelah itu, tak ada seorang pun
+                    yang berani untuk melawan mereka. Para monster yang memilik bentuk dan jenis yang berbeda membentuk
+                    kesatuan untuk menghancurkan umat manusia dengan menindas mereka. Mereka dipimpin oleh sosok yang
+                    sangat tertutup. Ketika sang ketua itu keluar, menampakkan dirinya ia terlihat sangat besar dengan
+                    zirah yang hampir menutupi dirinya termasuk wajahnya. Tak ada seorang pun yang tahu. Hanya mereka
+                    para jendral-jendral ternama dari ras monster yang mengetahui bagaimana rupa asli dari sosok
+                    pemimpin itu.</p>
+                  <blockquote>
+                    <p>Kelaparan, kemiskinan, dan tak sedikit dari kematian telah melanda hampir dari seluruh dunia ini.
+                      Bagi mereka yang hidup, dunia ini merupakan neraka yang kejam untuk ditempati. Tak ada pembela
+                      ataupun
+                      yang mengasihani. Semuanya bertindak kejam satu sama lain. Para manusia yang mencoba melawan pun
+                      tak
+                      kunjung kembali. Para monster itu tak dapat dikalahkan hanya dengan senjata biasa. Ini merupakan
+                      keuntungan sepihak yang hanya diperoleh oleh para monster saja.</p>
+                  </blockquote>
+                  <p>Hari demi hari berlalu. Musim dengan cepatnya berganti. Hari dimana terlihat bunga bermekaran,
+                    kini hanyalah ranting-ranting kosong nan rapuh yang tampak memilukan. Ditambah dengan suasana
+                    dingin yang perlahan menggerogoti tulang. Pada musim seperti ini para monster tidak sama sekali
+                    menampakkan batang hidung mereka, ataupun mengganggu para manusia. Tetap saja, manusia biasa tak
+                    akan dapat bertahan dalam keadaan seperti ini.
+                  </p>
+                  <p>Musim dingin adalah musim dimana para monster akan membiarkan manusia untuk hidup dengan
+                    keinginannnya sendiri, karena memang mereka tak ingin merasakan hawa dingin itu. Jadi tak ada
+                    penindasan di musim dingin. Meski begitu sebuah keberuntungan jika manusia dapat tahan dengan musim
+                    yang ekstrim itu.</p>
+                  <p>
+                    Tak ada yang tahu, ditengah musim yang membekukkan seluruh makhluk hidup, seorang pemuda keluar
+                    dengan persediaannya yang minim menyusuri hutan ditengah badai salju yang bertiup dengan kerasnya.
+                    Sang pemuda pergi meninggalkan desa tanpa ada seorangpun yang menyadarinya. Ia adalah seorang
+                    alkemis yang berhasil menyembunyikan dirinya di suatu tempat. Menyusun rencana sedemikian rupa hanya
+                    demi membela umat manusia dalam mengalahkan monster-monster yang entah dari mana asalnya. Pun
+                    menciptakan berbagai ramuan untuk mengetahui kelemahan para monster itu. Tapi, tetap saja tak
+                    berhasil dengan segala upayanya. Hingga akhirnya sang alkemis mendengar berita tentang sebuah lahar
+                    abadi yang ajaib yang merupakan kunci utama dari usahanya yang selalu gagal.
+                  </p>
+                  <p>
+                    Sang alkemis kembali melakukan percobaannya ketika ia kembali ke desa. Dengan warga desa yang turut
+                    membatunya dalam bersembunyi, memasok makanan dan melakukan banyak hal yang kerap sangat
+                    membantunya. Ia menemukan cara dan berhasil menciptakan sesuatu yang luar biasa. Jika bahan sekunder
+                    setelah lahar adalah makanan, maka akan membuat manusia memiliki kekuatan dalam jangka waktu yang
+                    telah ditentukan, yang kemudian bagi para monster akan menjadi racun yang sangat mematikan hingga
+                    dapat menghentikan detak jantung mereka hanya dalam beberapa detik.
+                  </p>
+                  <p>
+                    Tetapi makanan yang disebut Gareth ini ternyata memiliki kelemahan yang tak kalah dengan kekuatan
+                    yang dihasikan. Yaitu membuat para pengguna yang memakannya akan terkena penyakit yang dapat
+                    memutuskan urat-urat mereka hingga menghancurkan tulang-tulang lunak setelah pemakaian dalam jangka
+                    yang melebihi batas waktu.
+                  </p>
+                  <p>
+                    Melihat dari kondisi serta sisi kemanusiaan yang dimiliki, dirasanya senjata dengan bahan makanan
+                    ini cukup berbahaya dan banyak menelan jiwa. Setelah peperangan kecil yang telah mereka menangkan.
+                    Para monster mengumumkan peperangan besar kepada sang alkemis, hal ini sontak membuat pemuda itu
+                    kebingungan. Ditambah dengan keluhan orang-orang disekitar mereka tentang kue Gareth yang mematikan
+                    berhasil memacu otaknya untuk kembali berfikir keras. Meski terdengar tak masuk akal, sang alkemis
+                    menggunakan cara yang sama dalam meracik penemuan barunya itu. Ia menggunakan cara yang sama seperti
+                    sebelumnya dengan menggunakan bahan sekunder lain yaitu pada bahan pembuatan senjata. Awalnya sang
+                    alkemis tak terlalu yakin dengan apa yang difikirkannya. Tanpa disadari ia berhasil membuat senjata
+                    yang tak terkalahkan untuk mengahadapi para monster.
+                  </p>
+                  <p>
+                    Tepat sehari sebelum peperangan dimulai, beribu-ribu senjata berhasil diciptakan. Dari tameng,
+                    pedang, tombak, gada, busur dan anak panah ajaib dan masih banyak lagi. Akhinya waktu yang telah
+                    ditentukan telah datang. Para monster menerima kekalahan telak yang sangat merugikan mereka. Meski
+                    tak dapat mati, tapi mereka mendapatkan luka yang sangat parah untuk dapat beregenerasi dengan
+                    cepat. Akhirnya umat manusia memperoleh kemenangan setelah ditindas beratus-ratus tahun.
+                  </p>
+                  <p>
+                    Tak sedikit dari para pejuang yang telah gugur dalam peperangan pun dengan senjata yang hancur
+                    maupun hilang, hingga yang tersisa hanyalah beberapa senjata. Salah satunya adalah belati Dianne.
+                    Monster-monster itu terkena luka yang parah dan butuh waktu lama untuk proses penyembuhan. Sang
+                    pemimpin yang masih misterius itu menghilang entah kemana. Mereka semua kalah telak dengan kemampuan
+                    sang alkemis. Karena keberadaan mereka yang tak bisa menghilang akhirnya sang alkemis mengurung
+                    mereka semua yang tersisa diatas bumi ini di sebuah dataran luas, yang melingkupi hutan hujan dengan
+                    rangkaian pegunungan didalamnya.
+                  </p>
+                  <p>
+                    Diakhir sang alkemis membuat perjanjian akan ketenangan hidup sang monster. Kesepakatan itu tentunya
+                    diterima baik oleh sang monster. Namun, ada permintaan tambahan yang diminta oleh para monster
+                    kepada sang alkemis. Tentang sebuah batas yang akan aktif ketika di malam hari. Perjanjian tentang
+                    adanya larangan untuk manusia menginjak wilayah mereka. Dan semua itu akhirnya disepakati oleh kedua
+                    belah pihak.
+                  </p>
+                  <p>
+                    Setelah menghilangnya keberadaan para monster dari dunia ini, kehidupan kembali damai. Sang alkemis
+                    pun dapat meninggalkan dunia dengan tenang. Namun, diakhir hidupnya ia mengingatkan anak-cucunya dan
+                    seluruh kerabatnya untuk berhati-hati dengan kegelapan malam dimana pun berada, dan untuk menjaga
+                    pun merawat senjata yang telah ia wariskan untuk teman-temannya atau pun kerabatnya.
+                  </p>
+
+                  <a href="">Chapter 2</a>
+                </div>
+              </div>
+              <div class="comments">
+                <h4 class="comment-title font-alt">There are 3 comments</h4>
+                <div class="comment clearfix">
+                  <div class="comment-avatar"><img src="pict/download.jfif" alt="avatar" /></div>
+                  <div class="comment-content clearfix">
+                    <div class="comment-author font-alt"><a href="#">John DOpe!</a></div>
+                    <div class="comment-body">
+                      <p>What will Happend if the monster stiil conquer the world?? I Wanna Know!!</p>
+                    </div>
+                    <div class="comment-meta font-alt">Today, 14:55 - <a href="#">Reply</a>
+                    </div>
+                  </div>
+                  <div class="comment clearfix">
+                    <div class="comment-avatar"><img src="pict/Hajin on Twitter.png" alt="avatar" /></div>
+                    <div class="comment-content clearfix">
+                      <div class="comment-author font-alt"><a href="#">@Mark Lee Stone</a></div>
+                      <div class="comment-body">
+                        <p>What Is the Book Still There?</p>
+                      </div>
+                      <div class="comment-meta font-alt">Today, 15:34 - <a href="#">Reply</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment clearfix">
+                  <div class="comment-avatar"><img src="pict/pixiv.png" alt="avatar" /></div>
+                  <div class="comment-content clearfix">
+                    <div class="comment-author font-alt"><a href="#">@Andy-MoguUgu</a></div>
+                    <div class="comment-body">
+                      <p>Why is Harrold so Cruel?</p>
+                    </div>
+                    <div class="comment-meta font-alt">Today, 14:59 - <a href="#">Reply</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="comment-form">
+                <h4 class="comment-form-title font-alt">Add your comment</h4>
+                <form method="post">
+                  <div class="form-group">
+                    <label class="sr-only" for="name">Name</label>
+                    <input class="form-control" id="name" type="text" name="name" placeholder="Name" />
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="email">Name</label>
+                    <input class="form-control" id="email" type="text" name="email" placeholder="E-mail" />
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" id="comment" name="comment" rows="4"
+                      placeholder="Comment"></textarea>
+                  </div>
+                  <button class="btn btn-round btn-d" type="submit">Post comment</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="module-small bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="widget">
+                <h5 class="widget-title font-alt">About TRaumfalle</h5>
+                <p>It's A Website about our WORKS!</p>
+                <p>Phone: +1 234 567 89 10</p>Fax: +1 234 567 89 10
+                <p>Email:<a href="#">somecompany@example.com</a></p>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="widget">
+                <h5 class="widget-title font-alt">Recent Comments</h5>
+                <ul class="icon-list">
+                  <li>Lily on <a href="#">A Misunderstanding?</a></li>
+                  <li>Han on <a href="#">Reality??</a></li>
+                  <li>Katherine on <a href="#">A Blank Space</a></li>
+                  <li>MOb on <a href="#">A Castle on the Hill</a></li>
+                  <li>Lee on <a href="#">A Catle of Chess</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="widget">
+                <h5 class="widget-title font-alt">Chapter</h5>
+                <ul class="icon-list">
+                  <li><a href="#"></a>Home</li>
+                  <li><a href="#">Chapter</a></li>
+                  <li><a href="#">Story</a></li>
+                  <li><a href="#">World</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="divider-d">
+      <footer class="footer bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <p class="copyright font-alt">&copy; 2022&nbsp;<a href="index.html">TRaumfalle</a>, All Rights Reserved
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                    class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i
+                    class="fa fa-skype"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+  </main>
+  <!--  
+    JavaScripts
+    =============================================
+    -->
+  <script src="assets/lib/jquery/dist/jquery.js"></script>
+  <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="assets/lib/wow/dist/wow.js"></script>
+  <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+  <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+  <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+  <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+  <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="assets/lib/smoothscroll.js"></script>
+  <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+  <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
